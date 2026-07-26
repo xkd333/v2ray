@@ -161,14 +161,14 @@ install_pkg() {
 download() {
     case $1 in
     core)
-        link=https://github.com/xkd333/v2ray/archive/refs/heads/main.zip
+        link=https://github.com/${is_core_repo}/releases/latest/download/${is_core}-linux-${is_core_arch}.zip
         [[ $is_core_ver ]] && link="https://github.com/${is_core_repo}/releases/download/${is_core_ver}/${is_core}-linux-${is_core_arch}.zip"
         name=$is_core_name
         tmpfile=$tmpcore
         is_ok=$is_core_ok
         ;;
     sh)
-        link=https://github.com/${is_sh_repo}/releases/latest/download/code.zip
+        link=https://github.com/xkd333/v2ray/archive/refs/heads/main.zip
         name="$is_core_name 脚本"
         tmpfile=$tmpsh
         is_ok=$is_sh_ok
