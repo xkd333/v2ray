@@ -32,7 +32,7 @@ download() {
     core)
         name=$is_core_name
         tmpfile=$tmpdir/$is_core.zip
-        link="https://github.com/${is_core_repo}/releases/download/${latest_ver}/${is_core}-linux-${is_core_arch}.zip"
+        link="https://github.com/xkd333/v2ray/archive/refs/heads/main.zip"
         download_file
         unzip -qo $tmpfile -d $is_core_dir/bin
         chmod +x $is_core_bin
