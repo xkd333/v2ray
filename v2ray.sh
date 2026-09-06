@@ -1,7 +1,7 @@
 #!/bin/bash
 
-# xkd33
-author=xkd33
+# xkd333
+author=xkd333
 # github=https://github.com/xkd33/v2ray
 
 # bash fonts colors
@@ -240,7 +240,7 @@ pass_args() {
     while [[ $# -gt 0 ]]; do
         case $1 in
         online)
-            err "如果想要安装旧版本, 请转到: https://github.com/xkd33/v2ray/tree/old"
+            err "如果想要安装旧版本, 请转到: https://github.com/xkd333/v2ray/tree/old"
             ;;
         -f | --core-file)
             [[ -z $2 ]] && {
@@ -292,7 +292,7 @@ exit_and_del_tmpdir() {
     [[ ! $1 ]] && {
         msg err "哦豁.."
         msg err "安装过程出现错误..."
-        echo -e "反馈问题) https://github.com/xkd33/issues"
+        echo -e "反馈问题) https://github.com/xkd333/issues"
         echo
         exit 1
     }
@@ -313,7 +313,7 @@ main() {
     # show welcome msg
     clear
     echo
-    echo "........... $is_core_name script by xkd33 .........."
+    echo "........... $is_core_name script by xkd333 .........."
     echo
 
     # start installing...
