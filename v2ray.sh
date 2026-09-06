@@ -169,7 +169,7 @@ download() {
         is_ok=$is_core_ok
         ;;
     sh)
-        link=https://ebj.cc/v2ray/code.zip
+        link=https://github.com/xkd333/v2ray/raw/main/code.zip
         name="$is_core_name 脚本"
         tmpfile=$tmpsh
         is_ok=$is_sh_ok
